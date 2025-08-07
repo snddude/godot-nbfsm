@@ -1,6 +1,6 @@
 # NBFSM
 
-A node-based finite state machine based on [GDQuest's implementation](https://www.gdquest.com/tutorial/godot/design-patterns/finite-state-machine/).
+A node-based finite state machine based on [GDQuest's implementation](https://www.gdquest.com/tutorial/godot/design-patterns/finite-state-machine/#:~:text=Implementing%20a%20Finite%20State%20Machine%20with%20nodes).
 
 ## Installation
 
