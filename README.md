@@ -4,7 +4,7 @@ A node-based finite state machine based on [GDQuest's implementation](https://ww
 
 ## Installation
 
-Download the [latest release](https://github.com/snddude/godot-nbfsm/releases/latest) of this plugin, which comes in a zip archive. Extract it into your project's "addons/" folder, then go to Project → Project Settings → Plugins and enable "NBFSM".
+Download the [latest release](https://github.com/snddude/godot-nbfsm/releases/latest) of this plugin, which comes in a ZIP archive. Extract it into your project's "addons/" folder, then go to Project → Project Settings → Plugins and enable "NBFSM".
 
 ## Usage
 
