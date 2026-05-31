@@ -11,9 +11,15 @@ config_version=5
 [application]
 
 config/name="godot-nbfsm"
-config/features=PackedStringArray("4.4", "Forward Plus")
+config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/inspector_tabs/plugin.cfg", "res://addons/nbfsm/plugin.cfg", "res://addons/script-tabs/plugin.cfg")
+enabled=PackedStringArray("res://addons/nbfsm/plugin.cfg")
+
+[file_customization]
+
+folder_colors={
+"res://addons/": "red"
+}
