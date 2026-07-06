@@ -25,6 +25,10 @@ func input_update(event: InputEvent) -> void:
 	current_state.input_update(event)
 
 
+func unhandled_input_update(event: InputEvent) -> void:
+	current_state.unhandled_input_update(event)
+
+
 func update(delta: float) -> void:
 	current_state.update(delta)
 

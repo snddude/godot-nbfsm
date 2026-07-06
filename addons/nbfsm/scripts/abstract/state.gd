@@ -13,6 +13,10 @@ func input_update(event: InputEvent) -> void:
 	pass
 
 
+func unhandled_input_update(event: InputEvent) -> void:
+	pass
+
+
 func update(delta: float) -> void:
 	pass
 
