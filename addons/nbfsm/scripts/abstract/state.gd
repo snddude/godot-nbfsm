@@ -24,5 +24,9 @@ func physics_update(delta: float) -> void:
 	pass
 
 
+func intergrate_forces_update(state: PhysicsDirectBodyState3D) -> void:
+	pass
+
+
 func exit() -> void:
 	pass
