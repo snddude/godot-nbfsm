@@ -35,7 +35,7 @@ func _physics_process(delta: float) -> void:
 
 func change_state(new_state_path: String) -> void:
 	if not has_node(new_state_path):
-		push_error('No such state "%s" in state machine "%s"'%[new_state_path, name])
+		push_error("StateMachine %s missing %s state" % [name, new_state_path])
 		return
 
 	current_state.exit()
