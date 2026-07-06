@@ -1,4 +1,5 @@
 @abstract
+@icon("res://addons/nbfsm/assets/sprites/icons/state.svg")
 class_name State
 extends Node
 

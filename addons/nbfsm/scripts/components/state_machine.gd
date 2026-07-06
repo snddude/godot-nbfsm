@@ -1,3 +1,4 @@
+@icon("res://addons/nbfsm/assets/sprites/icons/state_machine.svg")
 class_name StateMachine
 extends Node
 
