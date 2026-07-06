@@ -21,16 +21,20 @@ func _ready() -> void:
 	current_state.enter()
 
 
-func _input(event: InputEvent) -> void:
+func input_update(event: InputEvent) -> void:
 	current_state.input_update(event)
 
 
-func _process(delta: float) -> void:
+func update(delta: float) -> void:
 	current_state.update(delta)
 
 
-func _physics_process(delta: float) -> void:
+func physics_update(delta: float) -> void:
 	current_state.physics_update(delta)
+
+
+func integrate_forces_update(state: PhysicsDirectBodyState3D) -> void:
+	current_state.intergrate_forces_update(state)
 
 
 func change_state(new_state_path: String) -> void:
