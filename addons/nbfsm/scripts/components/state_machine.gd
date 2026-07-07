@@ -34,7 +34,7 @@ func _ready() -> void:
 
 func _get_configuration_warnings() -> PackedStringArray:
 	if initial_state == null:
-		return ["StateMachine needs a reference to an initial State"]
+		return ["StateMachine needs a reference to an initial State. Assign one in the inspector"]
 
 	return []
 
