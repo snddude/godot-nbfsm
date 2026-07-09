@@ -1,6 +1,6 @@
 # NBFSM
 
-A node-based finite state machine based on [GDQuest's implementation](https://www.gdquest.com/tutorial/godot/design-patterns/finite-state-machine/#:~:text=Implementing%20a%20Finite%20State%20Machine%20with%20nodes).
+A node-based finite state machine. Once based on [GDQuest's implementation](https://www.gdquest.com/tutorial/godot/design-patterns/finite-state-machine/#:~:text=Implementing%20a%20Finite%20State%20Machine%20with%20nodes).
 
 ## Installation
 
@@ -8,7 +8,7 @@ Download the [latest release](https://github.com/snddude/godot-nbfsm/releases/la
 
 ## Usage
 
-[The player scene](https://www.gdquest.com/tutorial/godot/design-patterns/finite-state-machine/#:~:text=The%20player%20scene) section on GDQuest's webpage demonstrates how to use this state machine implementation.
+You can refer to [this repository](https://github.com/snddude/godot-rigidbody_3d_player) for an example on how to use this addon.
 
 ## License
 
