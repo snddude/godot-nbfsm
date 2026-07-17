@@ -19,6 +19,7 @@ var current_state: State = null
 func _ready() -> void:
 	if Engine.is_editor_hint():
 		update_configuration_warnings()
+		return
 
 	for child in get_children():
 		if child is State:
