@@ -12,7 +12,6 @@ signal state_changed(new_state_path: String)
 		if Engine.is_editor_hint():
 			update_configuration_warnings()
 
-
 var current_state: State = null
 
 
