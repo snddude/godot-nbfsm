@@ -61,7 +61,7 @@ func integrate_forces_update(state: PhysicsDirectBodyState3D) -> void:
 
 func change_state(new_state_path: String) -> void:
 	if not has_node(new_state_path):
-		push_error("StateMachine %s missing %s state" % [name, new_state_path])
+		push_error("StateMachine %s missing %s state" % [get_path(), new_state_path])
 		return
 
 	current_state.exit()
